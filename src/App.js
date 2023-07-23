@@ -1,11 +1,12 @@
-import SideBar from './SideBar';
 
+import Carousel from './components/Carousel'
 import './App.css'
+import Projects from './components/Projects'
 
 function App(){
   return (
-    <div className ="flex">
-      <SideBar />
+    <div >
+      <Projects/>
 
     </div>
   );
